@@ -5,7 +5,6 @@ metadata:
   generateName: upgrade-sql-schema
   annotations:
     argocd.argoproj.io/hook: PreSync
-    argocd.argoproj.io/sync-wave: "5"
 spec:
   template:
     spec:
